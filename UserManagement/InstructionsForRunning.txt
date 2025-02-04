@@ -1,0 +1,9 @@
+1* Run sql script to create DB, tables and fill data in Client table for default client. 
+   There is no request for Client operation in this requirement. If so, Client entity operations should be available through API. 
+   API Key should not be string, it should be protected in some way and send encipted through request. Existing one is just added as example, so User's endpoints can be riched.
+
+2* Build solution and run
+
+3* If error "Failed to bind to address https://127.0.0.1:7121: address already in use." or any similar appears, check if any process is already using port 7121 and terminate it.
+
+4* Client API Key stored in db for "DefaultClient" is "DefaultClientApiKey" and it can be used for authentication.
